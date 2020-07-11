@@ -5,7 +5,7 @@ Home: https://github.com/fatiando/boule
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Reference ellipsoids for geodesy, geophysics, and coordinate calculations
 
