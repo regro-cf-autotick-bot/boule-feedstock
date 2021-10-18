@@ -1,5 +1,5 @@
 {% set name = "boule" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 065475379183d2353e8c5ba3bd5b549e4d4177ac6230e839aea2a0e2894461f9
+  sha256: fe8ac535ebd960ee14945ecb1650ace607afbfe9ae19c496ff95a8be5a495b34
 
 build:
   noarch: python
