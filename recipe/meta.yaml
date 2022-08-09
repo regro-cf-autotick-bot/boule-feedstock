@@ -1,5 +1,5 @@
 {% set name = "boule" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2a4b7203cbd3f5b36ec3f0b07b0e4e1bac55038ebd12f0ee22dbeaa2a884f79a
+  sha256: bcc519acb15041df0f0a5a2ac4dbc8ed8ee47f887a72891e5a86222e3ac68b60
 
 build:
   noarch: python
@@ -21,8 +21,8 @@ requirements:
     - setuptools_scm
   run:
     - python >=3.6
-    - numpy
-    - attrs
+    - numpy >=1.19
+    - attrs >=19.3.0
 
 test:
   imports:
